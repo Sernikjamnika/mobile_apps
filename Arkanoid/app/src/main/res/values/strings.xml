@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Arkanoid</string>
+    <string name="lives">lives</string>
+    <string name="ballX">ballX</string>
+    <string name="ball">ball</string>
+    <string name="paddle">paddle</string>
+</resources>

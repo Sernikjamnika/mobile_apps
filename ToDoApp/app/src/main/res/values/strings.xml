@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="task_image_desc">Task Image</string>
+    <string name="title_activity_task_adding">TaskAddingActivity</string>
+    <string name="task_title">Task Title</string>
+    <string name="AcceptionButton">Add</string>
+    <string name="task_description">Task Description</string>
+    <string name="yyyy_mm_dd">YYYY-MM-DD</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="priority">Priority</string>
+    <string name="due_date">Due date</string>
+</resources>

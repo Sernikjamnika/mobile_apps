@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:id="@+id/Task"
+              android:gravity="center"
+              android:layout_marginBottom="8dp"
+              android:layout_height="50dp">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/TaskImage"
+            android:layout_weight="0.2"
+            android:contentDescription="@string/task_image_desc"
+            app:srcCompat="@drawable/jamnik"/>
+
+    <TextView
+            android:id="@+id/TaskTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:textAlignment="viewStart"/>
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/TaskDate"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/darker_gray"
+            />
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TaskPriority"
+            android:layout_weight="0.1"
+            android:layout_marginStart="16dp"
+            />
+
+</LinearLayout>

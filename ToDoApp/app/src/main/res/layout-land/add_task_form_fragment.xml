@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddTaskForm" android:id="@+id/frameLayout">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:weightSum="1.4">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/TaskTitle"
+                    android:layout_weight="0.2"
+                    android:hint="@string/task_title"
+                    android:importantForAutofill="no"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/TaskDesc"
+                    android:layout_weight="0.3"
+                    android:hint="@string/task_description"
+                    android:importantForAutofill="no"
+                    android:maxLength="300"
+                    />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/TaskDate"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.2"
+                    android:hint="@string/yyyy_mm_dd"
+                    android:importantForAutofill="no"
+                    android:focusable="false"/>
+
+            <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:checkedButton="@+id/ImageSelection1"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.3"
+                    android:id="@+id/ImageSelector"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center">
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageSelection1"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/pokeball_red_border"
+                        android:button="@android:color/transparent"
+                        />
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageSelection2"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/jake"
+                        android:button="@android:color/transparent"
+                        android:layout_marginStart="16dp"/>
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageSelection3"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/vader"
+                        android:button="@android:color/transparent"
+                        android:layout_marginStart="16dp"/>
+
+            </RadioGroup>
+
+            <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:id="@+id/TaskPriority"
+                    android:layout_weight="0.2"
+                    android:numStars="5"
+                    />
+
+            <Button
+                    android:text="@string/AcceptionButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/AcceptButton"
+                    android:layout_weight="0.2"
+                    />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

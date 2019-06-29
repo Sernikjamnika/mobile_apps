@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="put_letter">Put letter</string>
+    <string name="send">Send</string>
+    <string name="textview">TextView</string>
+    <string name="hangman">hangman</string>
+    <string name="password">_ _ _ _ _</string>
+    <string-array name="passwords">
+        <item>jamnik</item>
+        <item>mucha</item>
+        <item>kabanos</item>
+        <item>nsi</item>
+    </string-array>
+</resources>

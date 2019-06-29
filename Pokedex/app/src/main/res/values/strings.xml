@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="pokemonimage">PokemonImage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="pokemon_string_pokemonimage">Pokemon @string/pokemonimage</string>
+
+    <string-array name="pokemonImageUrls">
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png</item>
+        <item>https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png</item>
+    </string-array>
+
+    <string-array name="pokemonDescriptions">
+        <item>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun\'s rays, the seed grows progressively larger.</item>
+        <item>There is a bud on this Pokémon\'s back. To support its weight, Ivysaur\'s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it\'s a sign that the bud will bloom into a large flower soon.</item>
+        <item>There is a large flower on Venusaur\'s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower\'s aroma soothes the emotions of people.</item>
+        <item>The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.</item>
+        <item>Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.</item>
+        <item>Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.</item>
+        <item>Squirtle\'s shell is not merely used for protection. The shell\'s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.</item>
+        <item>Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon\'s toughness as a battler.</item>
+        <item>Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>The shell covering this Pokémon\'s body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.</item>
+        <item>Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.</item>
+        <item>Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).</item>
+        <item>Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.</item>
+        <item>Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.</item>
+        <item>Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.</item>
+        <item>Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.</item>
+        <item>This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.</item>
+        <item>Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.</item>
+        <item>Raticate\'s sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.</item>
+        <item>Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.</item>
+        <item>Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.</item>
+        <item>Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.</item>
+        <item>This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.</item>
+        <item>Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it\'s evidence that this Pokémon mistook the intensity of its charge.</item>
+        <item>If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon\'s nest.</item>
+        <item>Sandshrew\'s body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.</item>
+        <item>Sandslash\'s body is covered by tough spikes, which are hardened sections of its hide. Once a year, the old spikes fall out, to be replaced with new spikes that grow out from beneath the old ones.</item>
+        <item>Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.</item>
+        <item>When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.</item>
+        <item>Nidoqueen\'s body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.</item>
+        <item>Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon\'s notice.</item>
+        <item>Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.</item>
+        <item>Nidoking\'s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.</item>
+        <item>On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.</item>
+        <item>Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.</item>
+    </string-array>
+
+    <string-array name="pokemonNames">
+        <item>Bulbasuar</item>
+        <item>Ivysaur</item>
+        <item>Venusaur</item>
+        <item>Charmander</item>
+        <item>Charmeleon</item>
+        <item>Charizard</item>
+        <item>Squirtle</item>
+        <item>Wartortle</item>
+        <item>Blastoise</item>
+        <item>Caterpie</item>
+        <item>Metapod</item>
+        <item>Butterfree</item>
+        <item>Weedle</item>
+        <item>Kakuna</item>
+        <item>Beedrill</item>
+        <item>Pidgey</item>
+        <item>Pidgeotto</item>
+        <item>Pidgeot</item>
+        <item>Rattata</item>
+        <item>Raticate</item>
+        <item>Spearow</item>
+        <item>Fearow</item>
+        <item>Ekans</item>
+        <item>Arbok</item>
+        <item>Pikachu</item>
+        <item>Raichu</item>
+        <item>Sandshrew</item>
+        <item>Sandslash</item>
+        <item>Nidoran♀</item>
+        <item>Nidorina</item>
+        <item>Nidoqueen</item>
+        <item>Nidoran♂</item>
+        <item>Nidorino</item>
+        <item>Nidoking</item>
+        <item>Clefairy</item>
+        <item>Clefable</item>
+    </string-array>
+</resources>

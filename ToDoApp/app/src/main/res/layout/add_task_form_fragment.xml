@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddTaskForm" android:id="@+id/frameLayout">
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:weightSum="1.7"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/TaskTitle"
+                    android:layout_weight="0.3"
+                    tools:layout_editor_absoluteY="366dp"
+                    android:importantForAutofill="no"
+                    android:hint="@string/task_title"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="4dp"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/TaskDesc"
+                    android:layout_weight="0.1"
+                    tools:layout_editor_absoluteY="343dp"
+                    android:hint="@string/task_description"
+                    android:importantForAutofill="no"
+                    android:textAlignment="viewStart"
+                    android:maxLength="300"
+                    android:layout_marginBottom="8dp"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/TaskDate"
+                    android:layout_weight="0.3"
+                    tools:layout_editor_absoluteY="366dp"
+                    android:importantForAutofill="no"
+                    android:hint="@string/yyyy_mm_dd"
+                    android:layout_marginBottom="8dp"
+                    android:focusable="false"/>
+
+            <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:checkedButton="@+id/ImageSelection1"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.4"
+                    android:id="@+id/ImageSelector"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp">
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageSelection1"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/pokeball_red_border"/>
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageSelection2"
+                        android:background="@drawable/jake"
+                        android:button="@android:color/transparent"
+                        android:layout_marginStart="4dp"/>
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ImageSelection3"
+                        android:background="@drawable/vader"
+                        android:button="@android:color/transparent"
+                        android:layout_marginStart="4dp"/>
+
+            </RadioGroup>
+
+            <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:id="@+id/TaskPriority"
+                    android:layout_weight="0.3"
+                    android:numStars="5"
+                    android:isIndicator="false"
+                    tools:layout_editor_absoluteY="337dp"
+                    tools:layout_editor_absoluteX="162dp"
+                    android:layout_marginBottom="8dp"/>
+
+            <Button
+                    android:text="@string/AcceptionButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/AcceptButton"
+                    android:layout_weight="0.3"
+                    tools:layout_editor_absoluteY="366dp"
+                    tools:layout_editor_absoluteX="250dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
